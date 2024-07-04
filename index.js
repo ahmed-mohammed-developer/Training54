@@ -33,3 +33,11 @@ function addStrNums(num1, num2) {
 
 console.log(addStrNums("4", "6"))
 console.log(sumOrNegative("4", "6"))
+
+
+function cone_volume(radius, height) {
+  // write your code here
+    return (1 / 3) * 3.14 * Math.pow(radius, 2) * height;
+
+}
+console.log(cone_volume(8.7, 7.8))
